@@ -1,0 +1,60 @@
+{
+  "name": "matt-pocock-original",
+  "version": "0.1.9",
+  "description": "Unofficial Codex packaging of Matt Pocock's 27 original skills at commit d81f3a1, with only required host interface adaptations.",
+  "author": {
+    "name": "Local repackaging"
+  },
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "tdd",
+    "code-review",
+    "matt-pocock"
+  ],
+  "skills": [
+    "./skills/ask-matt",
+    "./skills/diagnosing-bugs",
+    "./skills/grill-with-docs",
+    "./skills/triage",
+    "./skills/improve-codebase-architecture",
+    "./skills/setup-matt-pocock-skills",
+    "./skills/tdd",
+    "./skills/to-spec",
+    "./skills/to-tickets",
+    "./skills/wayfinder",
+    "./skills/implement",
+    "./skills/implement-spec",
+    "./skills/prototype",
+    "./skills/research",
+    "./skills/domain-modeling",
+    "./skills/codebase-design",
+    "./skills/code-review",
+    "./skills/pr",
+    "./skills/retro",
+    "./skills/wizard",
+    "./skills/grill-me",
+    "./skills/grilling",
+    "./skills/handoff",
+    "./skills/teach",
+    "./skills/to-questionnaire",
+    "./skills/wait-what",
+    "./skills/writing-for-agents"
+  ],
+  "interface": {
+    "displayName": "Matt Pocock Skills Original",
+    "shortDescription": "27 skills, minimal Codex port",
+    "longDescription": "Unofficial Codex packaging of Matt Pocock's 27 original skills at commit d81f3a1, with only required host interface adaptations. Original skill names, invocation policies, workflows and script dependencies are retained.",
+    "developerName": "Local repackaging",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": "Use ask-matt to help me choose the original skill or workflow for my task.",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}
